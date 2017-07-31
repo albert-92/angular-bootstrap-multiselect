@@ -122,12 +122,12 @@
                     if ($scope.selectedOptions && $scope.selectedOptions.length > 1) {
                         var totalSelected = angular.isDefined($scope.selectedOptions) ? $scope.selectedOptions.length : 0;
                         if (totalSelected === 0) {
-                            return $scope.labels && $scope.labels.select ? $scope.labels.select : ($scope.placeholder || 'Select');
+                            return $scope.labels && $scope.labels.select ? $scope.labels.select : ($scope.placeholder || 'Auswählen');
                         } else {
-                            return totalSelected + ' ' + ($scope.labels && $scope.labels.itemsSelected ? $scope.labels.itemsSelected : 'selected');
+                            return totalSelected + ' ' + ($scope.labels && $scope.labels.itemsSelected ? $scope.labels.itemsSelected : 'ausgewählt');
                         }
                     } else {
-                        return $scope.labels && $scope.labels.select ? $scope.labels.select : ($scope.placeholder || 'Select');
+                        return $scope.labels && $scope.labels.select ? $scope.labels.select : ($scope.placeholder || 'Auswählen');
                     }
                 };
 

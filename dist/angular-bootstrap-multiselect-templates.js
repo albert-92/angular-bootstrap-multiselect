@@ -49,7 +49,7 @@ angular.module("multiselect.html", []).run(["$templateCache", function ($templat
     "\n" +
     "        <li class=\"divider\" ng-show=\"selectionLimit > 1\"></li>\n" +
     "        <li role=\"presentation\" ng-show=\"selectionLimit > 1\">\n" +
-    "            <a>{{selectedOptions.length || 0}} / {{selectionLimit}} {{labels.itemsSelected || 'selected'}}</a>\n" +
+    "            <a>{{selectedOptions.length || 0}} / {{selectionLimit}} {{labels.itemsSelected || 'ausgewählt'}}</a>\n" +
     "        </li>\n" +
     "\n" +
     "    </ul>\n" +
